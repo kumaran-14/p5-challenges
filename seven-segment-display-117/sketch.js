@@ -1,6 +1,6 @@
 config = {
 	origin:{
-		x:50,
+		x:550,
 		y:50
 	},
 	rect : {
@@ -54,7 +54,16 @@ const rectArr = [
 ]
 
 //segments triangle coordinates and dimensions
-const triangleArr = [{},{},{},{},{},{},{},{},{},{},{},{},{},{}]
+// const triangleArr = [
+// 	{
+// 		x1:config.origin.x - ,
+// 		y1;,
+// 		x2:,
+// 		y2:,
+// 		x3:,
+// 		y3:
+// 	},
+// 	{},{},{},{},{},{},{},{},{},{},{},{},{}]
 // segments array
 const segments = [];
 // hexavalues for 0-9
@@ -82,7 +91,7 @@ class Triangle {
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	initializeSevenSegment()
-	frameRate(1)
+	frameRate(6)
 }
 
 function initializeSevenSegment(){
