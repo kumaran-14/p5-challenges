@@ -1,8 +1,17 @@
-# p5-challenges
+# P5-challenges
+
+A set of micro projects done during recreational code sprints to enthuse myself.
 
 ## Instructions to view
-1.Download this repository.
-2.Open the downloaded folder in vscode editor.
-3.Run live server using vscode.
-4.Navigate to the port on which server is running using your server.
-5.View the project demos by choosing each folder on the browser.
+  - Download this repository.
+  - Open the downloaded folder in vscode editor.
+  - Run live server using vscode.
+  - Navigate to the port on which live server is running using a browser of your choice.
+  - View the project demos by choosing each folder on the browser.
+  
+  - OR, open html files in your browser :p
+  
+License
+----
+
+MIT
